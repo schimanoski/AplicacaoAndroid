@@ -12,7 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ListViewAdapterActivity extends Activity {
+public class ListViewAdapterActivity extends MinhaActivity {
     final String[] nomes = {"douglas", "felipe", "Schimanoski", "junior", "rafael", "schimanoski", "cledir", "elidia", "schimanoski", "celso", "antonio", "schimanoski"};
 
     @Override

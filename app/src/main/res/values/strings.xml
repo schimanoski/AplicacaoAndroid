@@ -4,4 +4,7 @@
     <string name="menu2">menu-2</string>
     <string name="menu3">menu-3</string>
     <string name="menu4">menu-4</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
