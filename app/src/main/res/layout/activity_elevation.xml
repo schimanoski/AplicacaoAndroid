@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/btElv"
+        android:layout_width="276dp"
+        android:layout_height="127dp"
+        android:elevation="100dp"
+        android:text="Button"
+        android:background="@drawable/ripple_oval"
+        android:textColor="@color/colorPrimary"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="163dp"
+        android:layout_height="21dp"
+        android:max="100"
+        android:padding="80dp"
+        android:progress="0"
+        android:layout_weight="0.17" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="#fff000"
+        android:background="@drawable/ripple_oval"
+        android:elevation="8dp"
+        android:layout_weight="0.04" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@android:drawable/ic_input_add"
+        android:tint="#fff000"
+        >
+
+    </android.support.design.widget.FloatingActionButton>
+
+
+</LinearLayout>

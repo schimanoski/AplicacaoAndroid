@@ -80,6 +80,9 @@ public class MainActivity extends Activity {
 
         Button btAnimacaoDrawable = (Button)findViewById(R.id.btAnimacao);
         btAnimacaoDrawable.setOnClickListener(getOnClickListener(getContext(), AnimcaoActivity.class));
+
+        Button btElevatione = (Button)findViewById(R.id.btElevation);
+        btElevatione.setOnClickListener(getOnClickListener(getContext(), ElevationActivity.class));
     }
     public View.OnClickListener getOnClickListener(final Context ctx, final Class<?> c){
         View.OnClickListener on = new View.OnClickListener() {
